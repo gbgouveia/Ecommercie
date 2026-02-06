@@ -15,3 +15,11 @@ def page_produto():
         {'id':1, 'nome': 'Celular', 'codigo_barra':'121515121541', 'preco': 1200}
     ]
     return render_template("produtos.html",itens=itens) 
+
+@app.route('/')
+def page_login():
+    return render_template("login.html")
+
+@app.route('/')
+def page_cadastro():
+    return render_template("cadastro.html")
