@@ -1,0 +1,78 @@
+.custom-body {
+  background-color: #f1eee6 !important;
+}
+.letras{
+  color: #094f2e;
+  font-weight: bold;
+  text-align: center;
+}
+.custom-navbar {
+  background-color: #f1ead8 !important;
+}
+/* Logo */
+.custom-navbar .navbar-brand {
+  color: #094f2e !important;
+  font-weight: bold;
+}
+
+/* Links */
+.custom-navbar .nav-link {
+  color: #094f2e !important;
+  font-weight: 500;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #0c6b3e !important;
+}
+
+/* Input search */
+.custom-input {
+  border: 1px solid #094f2e;
+}
+
+/* Botão */
+.custom-btn {
+  color: #094f2e;
+  border: 1px solid #094f2e;
+}
+
+.custom-btn:hover {
+  background-color: #094f2e;
+  color: #ffffff;
+}
+.search-box {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 360px;
+  width: 100%;
+}
+
+.search-input {
+  padding-left: 40px;
+  border-radius: 25px;
+  border: 1px solid #094f2e;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #094f2e;
+  pointer-events: none;
+}
+
+.logo-navbar {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Fundo geral da tabela */
+.custom-table {
+  background-color: #f1ead8 !important; /* bege claro */
+  color: #094f2e;
+}
+
+

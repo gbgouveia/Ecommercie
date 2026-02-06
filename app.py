@@ -2,7 +2,16 @@ from flask import Flask,render_template
 
 app = Flask(__name__)
 
+
 @app.route('/')
-def hello_world():
+def page_home():
     return render_template("home.html")
 
+@app.route('/produtos')
+def page_produto():
+    itens=[
+        {'id':1, 'nome': 'Celular', 'codigo_barra':'121515121541', 'preco': 1200},
+        {'id':1, 'nome': 'Celular', 'codigo_barra':'121515121541', 'preco': 1200},
+        {'id':1, 'nome': 'Celular', 'codigo_barra':'121515121541', 'preco': 1200}
+    ]
+    return render_template("produtos.html",itens=itens) 
