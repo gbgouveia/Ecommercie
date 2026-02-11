@@ -1,0 +1,184 @@
+.custom-body {
+  background-color: #f1eee6 !important;
+  
+}
+.letras{
+  color: #094f2e;
+  font-weight: bold;
+  text-align: center;
+}
+.custom-navbar {
+  background-color: #f1ead8 !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+/* Logo */
+.custom-navbar .navbar-brand {
+  color: #094f2e !important;
+  font-weight: bold;
+}
+
+/* Links */
+.custom-navbar .nav-link {
+  color: #094f2e !important;
+  font-weight: 500;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #0c6b3e !important;
+}
+
+/* Input search */
+.custom-input {
+  border: 1px solid #094f2e;
+}
+
+/* Botão */
+.custom-btn {
+  color: #094f2e;
+  border: 1px solid #094f2e;
+}
+
+.custom-btn:hover {
+  background-color: #094f2e;
+  color: #ffffff;
+}
+.search-box {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 360px;
+  width: 100%;
+}
+
+.search-input {
+  padding-left: 40px;
+  border-radius: 25px;
+  border: 1px solid #094f2e;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #094f2e;
+  pointer-events: none;
+}
+
+.logo-navbar {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Fundo geral da tabela */
+/* Container da tabela */
+/* Fundo da tabela */
+#table {
+    background: #f1ead8;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cabeçalho */
+#table thead {
+    background: #e4d6c1;
+    color: #094f2e;
+    font-size: 15px;
+}
+
+#table th {
+    padding: 14px;
+    font-weight: 600;
+}
+
+/* Corpo da tabela */
+#table tbody tr {
+    background: transparent;
+}
+
+#table td {
+    padding: 14px;
+    color: #094f2e;
+    vertical-align: middle;
+    border-color: #dccfbf;
+}
+
+/* Hover suave */
+#table tbody tr:hover {
+    background-color: #f7efe4 !important;
+    transition: 0.2s ease;
+}
+
+/* Preço em destaque */
+#table td:nth-child(4) {
+    font-weight: bold;
+    color: #0c6b3e;
+}
+
+/* Coluna ações */
+#table td:last-child {
+    display: flex;
+    gap: 10px;
+}
+
+/* Botão informações */
+#table .btn-info {
+    background: #e9ddcc;
+    border: 1px solid #d6c7b2;
+    color: #094f2e;
+    border-radius: 10px;
+    padding: 6px 14px;
+    transition: 0.2s ease;
+}
+
+#table .btn-info:hover {
+    background: #dccfbf;
+}
+
+/* Botão comprar */
+#table .btn:last-child {
+    background: #094f2e;
+    color: white;
+    border-radius: 10px;
+    padding: 6px 14px;
+    transition: 0.2s ease;
+}
+
+#table .btn:last-child:hover {
+    background: #094f2e;
+}
+
+/* FORÇAR FUNDO DA TABELA */
+#table {
+    background-color: #f1ead8 !important;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Linhas da tabela */
+#table tbody tr {
+    background-color: #f1ead8 !important;
+}
+
+/* Células */
+#table th,
+#table td {
+    background-color: #f1ead8 !important;
+    color: #4b3f2f;
+    padding: 14px;
+}
+
+/* Cabeçalho */
+#table thead th {
+    background-color: #e4d6c1 !important;
+    font-weight: 600;
+}
+
+/* Hover */
+#table tbody tr:hover {
+    background-color: #f7efe4 !important;
+}
