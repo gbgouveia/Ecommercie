@@ -1,16 +1,18 @@
-
-
 {%extends 'base.html'%}
 
 {%block titulo%}
   Produtos
-  <link rel="stylesheet" href="/static/style.css">
 {%endblock%}
 
 {%block conteudos%}
+
+<div class="container-fluid">
+
 <h2 class="letras">Produtos</h2>
 <hr>
-<table id= "table"class="table table-hover">
+
+<div class="table-responsive">
+<table id="table" class="table table-hover">
 
   <thead class="thead">
     <tr class="tr">
@@ -22,6 +24,7 @@
       <th scope="col">Ações</th>
     </tr>
   </thead>
+
   <tbody>
     {% for item in itens %}
     <tr>
@@ -37,17 +40,10 @@
     </tr>
     {% endfor %}
   </tbody>
+
 </table>
+</div>
+
+</div>
 
 {%endblock%}
-
-
-
-
-
-
-
-
-
-
-
